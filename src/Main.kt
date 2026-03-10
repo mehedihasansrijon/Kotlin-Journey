@@ -1,9 +1,10 @@
 import models.Person
 
 fun main() {
-    val mehedihasan = Person("Mehedi Hasan Srijon", 2007, "Jannan Ali")
-    mehedihasan.echo()
-
-    val srijon = Person("Srijon", 2007, "Jannan Ali")
-    srijon.echo()
+    val name = "Jhon Doe"
+    val birthYear = 1970
+    val latter = 'D'
+    val number = 41
+    val doubleNumber = 5.99
+    val isAlive = true
 }
