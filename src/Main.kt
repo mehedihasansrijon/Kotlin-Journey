@@ -1,5 +1,6 @@
-fun main(args: Array<String>) {
-    println("Hello World! ${args[0]}")
-
-    println("Total arguments: ${args.size}")
+fun main() {
+    println("Hello World!")
+    println("I am learning Kotlin")
+    println("I am learning English")
+    println(8 + 8 + 8)
 }
