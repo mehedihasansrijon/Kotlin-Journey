@@ -1,9 +1,10 @@
 import models.Person
+import models.personEcho
 
 fun main() {
-    val person = Person("Mehedi Hasan Srijon", 2007, "Jannan Ali")
+    val mehedihasan = Person("Mehedi Hasan Srijon", 2007, "Jannan Ali")
+    personEcho(mehedihasan)
 
-    println("Name: ${person.name}")
-    println("Birthyear: ${person.birthYear}")
-    println("Father Name: ${person.fatherName}")
+    val srijon = Person("Srijon", 2007, "Jannan Ali")
+    personEcho(srijon)
 }
