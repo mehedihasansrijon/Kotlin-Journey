@@ -1,8 +1,21 @@
 fun main() {
 
     var i = 1
-    do {
-        print("Enter your Number: $i\n")
+    while (i <= 10) {
+        if (i == 4) {
+            i++
+            continue
+        }
+        println("I am $i")
         i++
-    } while (i <= 5)
+    }
+
+    var x = 1
+    while (x <= 10) {
+        if (x == 4) {
+            break
+        }
+        println("I am $x")
+        x++
+    }
 }
