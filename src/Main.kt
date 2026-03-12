@@ -1,6 +1,5 @@
 fun main() {
-    var names = listOf("Srijon", "Sagor", "Raju")
-    for ((index, name) in names.withIndex()) {
-        println("My Roll number is $index, name: $name")
+    for (i in 1..20 step 2) {
+        println(i)
     }
 }
