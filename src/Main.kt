@@ -1,6 +1,6 @@
 fun main() {
-    var countries = arrayOf("Russia", "USA", "Poland")
-    for (i in countries) {
-        println(i)
+    var names = listOf("Srijon", "Sagor", "Raju")
+    for (name in names) {
+        println(name)
     }
 }
