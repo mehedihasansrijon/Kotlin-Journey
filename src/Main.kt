@@ -1,8 +1,8 @@
 fun main() {
 
     var i = 1
-    while (i <= 10) {
-        println(i)
+    do {
+        print("Enter your Number: $i\n")
         i++
-    }
+    } while (i <= 5)
 }
